@@ -5,3 +5,20 @@ Initializing a repository engages git to create a repository / storage under the
 Q: How is the staging area different from the working directory and repository?   What value do you think it offers?
 
 Depending on the working directory, the staging area can contain files that are not in the working directory or repository.  These files will get added the repository when the commit command issued.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+Only stage the files that complete a logical change and then commit.
+
+Q: What are some situations where branches would be helpful in keeping your history organized?  How would branches help?
+
+Branches help establish an alternative way to store changes to documents without modifying the main branch or (head).  This allows greater flexibility in what type of changes a person can make to the files; otherwise, people would not like make drastic changes for fear that the changes would make it so there would be no way to get back to the original state of the repository.
+
+Q: How do diagrams help you visualize branch structure?
+
+Visual aids help pinpoint which commit belongs to a certain branch.
+
+Q: What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+
+Merging two branches together creates a single branch with all the commits underneath each separate branch into one branch.  The commits are ordered by time.  The diagram helps us visualize the resulting branch.
+
