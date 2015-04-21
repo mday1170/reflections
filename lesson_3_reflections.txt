@@ -7,4 +7,10 @@ Q: Why might you want to always pull changes manually rather than having Git aut
 
 Maybe some changes shouldn't get committed and added into the repository.  Users probably want full control of the changes that are committed/added.
 
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
+The Fork command allows a user to clone another project on Github without storing a copy locally.  The project is stored on Github under the user's account who performed the fork.  Github also keeps track of the number of times the project is "forked".
+
+The Clone command copies a project from a source location to the user's local machine.  
+
+Branch is similar to making another directory to store the files, only that the original branch (directory) is not affected by commits under the new branch.
