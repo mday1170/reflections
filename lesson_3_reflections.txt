@@ -26,3 +26,7 @@ A shared drive that all the collaborators have access to will make it possible f
 No source control will make it easy for people to just copy or edit files as they will not have to learn how to pull files from a source control system.  
 
 The learning curve for a source control system is worth it in that everyone can see the changes to files, and since Git will point out the differences, people can then resolve conflicts in file versions faster.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Make changes in a separate branch to try out new ideas, and then if everything works, merge them back to master.  Working with the master only branch may restrict a person's will to try out new things, because of the possibility of having to revert back to previous commits; whereas, a separate branch doesn't affect the master branch.
