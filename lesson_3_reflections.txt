@@ -14,3 +14,7 @@ The Fork command allows a user to clone another project on Github without storin
 The Clone command copies a project from a source location to the user's local machine.  
 
 Branch is similar to making another directory to store the files, only that the original branch (directory) is not affected by commits under the new branch.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Helps keep things sane when working away from the remote repository.  After updating the local repository, Git will know the differences between the local and remote repository by starting with the most recent commit id stored locally.
