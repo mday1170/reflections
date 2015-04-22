@@ -18,3 +18,11 @@ Branch is similar to making another directory to store the files, only that the 
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Helps keep things sane when working away from the remote repository.  After updating the local repository, Git will know the differences between the local and remote repository by starting with the most recent commit id stored locally.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A shared drive that all the collaborators have access to will make it possible for everyone to copy/edit files; however, without any type of source control, users will probably clobber each others' changes.  
+
+No source control will make it easy for people to just copy or edit files as they will not have to learn how to pull files from a source control system.  
+
+The learning curve for a source control system is worth it in that everyone can see the changes to files, and since Git will point out the differences, people can then resolve conflicts in file versions faster.
